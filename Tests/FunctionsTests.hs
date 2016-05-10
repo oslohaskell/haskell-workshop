@@ -31,4 +31,3 @@ tests = do
              FU.xor True  True] == [False, True, True, False]
 
 main = hspec tests
-

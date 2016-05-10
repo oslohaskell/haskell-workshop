@@ -36,4 +36,3 @@ tests = do
             QC.property $ \x -> RE.listLength x == length x
 
 main = hspec tests
-

@@ -21,4 +21,3 @@ tests = do
             QC.property $ \(c :: Char) -> isDigit c == PA.isDigit c
 
 main = hspec tests
-

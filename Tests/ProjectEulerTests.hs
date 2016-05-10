@@ -24,4 +24,3 @@ tests = do
             PE.problem16 `shouldBe` (2 * 683)
 
 main = hspec tests
-

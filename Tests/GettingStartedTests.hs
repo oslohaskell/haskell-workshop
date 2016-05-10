@@ -12,4 +12,3 @@ tests = do
             GS.myName `shouldSatisfy` (/= "N/A")
 
 main = hspec tests
-

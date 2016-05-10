@@ -20,4 +20,3 @@ tests = do
             QC.property $ \xs -> xs == (QCE.decode . QCE.encode) xs
 
 main = hspec tests
-

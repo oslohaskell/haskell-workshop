@@ -25,4 +25,3 @@ tests = do
             QC.property $ \xs -> RS.filterNot (< 2) xs == filter (not . (< 2)) xs
 
 main = hspec tests
-
