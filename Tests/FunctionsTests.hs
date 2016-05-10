@@ -1,5 +1,6 @@
 module Tests.FunctionsTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck           as QC
 import qualified E02_Functions              as FU
 import Test.Hspec

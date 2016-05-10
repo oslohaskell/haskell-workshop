@@ -1,6 +1,6 @@
 module E06_CreditCardNumberValidator where
 
-import Common
+import WorkshopPrelude
 import Data.Char (digitToInt)
 
 {-

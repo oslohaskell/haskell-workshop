@@ -1,6 +1,6 @@
 module E04_Recursion where
 
-import Common
+import WorkshopPrelude
 
 {-
     A recursive function is a recursive function is a recursive function is a

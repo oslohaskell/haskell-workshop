@@ -1,5 +1,6 @@
 module Tests.VigenereTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck as QC
 import qualified E11_Vigenere     as VI
 import Test.Hspec

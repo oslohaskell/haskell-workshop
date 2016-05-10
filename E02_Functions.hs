@@ -1,6 +1,6 @@
 module E02_Functions where
 
-import Common
+import WorkshopPrelude
 
 {-
     In this module we will learn how to define and apply functions.

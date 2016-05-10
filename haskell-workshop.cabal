@@ -1,0 +1,50 @@
+name:                haskell-workshop
+version:             3.0
+author:              Tobias G. Waaler, Erlend Hamberg, Runar Furenes
+maintainer:          tobiasgwaaler@gmail.com
+category:            Educational
+build-type:          Simple
+
+extra-source-files:  README.md
+cabal-version:    >= 1.10
+
+test-suite all-tests
+  type:    exitcode-stdio-1.0
+  main-is: AllTests.hs
+
+  build-depends: base
+               , QuickCheck
+               , hspec
+               , containers
+
+  other-modules: E01_GettingStarted
+               , E02_Functions
+               , E03_PartialApplication
+               , E04_Recursion
+               , E05_RecursionSchemes
+               , E06_CreditCardNumberValidator
+               , E07_PatternMatching
+               , E08_HigherOrderFunctions
+               , E09_ProjectEuler
+               , E10_QuickCheckExamples
+               , E11_Vigenere
+               , Tests.CreditCardNumberValidatorTests
+               , Tests.FunctionsTests
+               , Tests.GettingStartedTests
+               , Tests.HigherOrderFunctionsTests
+               , Tests.PartialApplicationTests
+               , Tests.PatternMatchingTests
+               , Tests.ProjectEulerTests
+               , Tests.QuickCheckExamplesTests
+               , Tests.RecursionSchemesTests
+               , Tests.RecursionTests
+               , Tests.VigenereTests
+               , WorkshopPrelude
+
+  default-language:   Haskell2010
+  default-extensions: NoImplicitPrelude
+
+-- Cabal requires a library (or executable) to be present to build a project:
+library
+  default-language: Haskell2010
+  build-depends: base

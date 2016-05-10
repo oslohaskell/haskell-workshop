@@ -1,5 +1,6 @@
 module Tests.RecursionSchemesTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck     as QC
 import qualified E05_RecursionSchemes as RS
 import Test.Hspec

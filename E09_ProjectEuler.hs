@@ -1,6 +1,6 @@
 module E09_ProjectEuler where
 
-import Common
+import WorkshopPrelude
 
 {-
     Some exercises from Project Euler - https://projecteuler.net

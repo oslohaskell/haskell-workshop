@@ -1,5 +1,6 @@
 module Tests.GettingStartedTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck   as QC
 import qualified E01_GettingStarted as GS
 import Test.Hspec

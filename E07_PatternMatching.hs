@@ -1,6 +1,6 @@
 module E07_PatternMatching where
 
-import Common
+import WorkshopPrelude
 
 {-
     I know this looks strange, but let me try to explain.

@@ -1,6 +1,6 @@
 module E08_HigherOrderFunctions where
 
-import Common
+import WorkshopPrelude
 
 {-
     Here is a simple implementatio of sets of integers, as functions.  The idea

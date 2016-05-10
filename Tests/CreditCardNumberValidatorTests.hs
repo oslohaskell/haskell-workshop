@@ -1,5 +1,6 @@
 module Tests.CreditCardNumberValidatorTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck              as QC
 import qualified E06_CreditCardNumberValidator as CV
 import Test.Hspec
