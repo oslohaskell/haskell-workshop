@@ -8,14 +8,14 @@ import WorkshopPrelude
 -}
 celebrities =
     ["conan o'brien", "steve wozniak",
-    "Beyoncé", "Queen Latifah",
+    "beyoncé", "queen latifah",
     "simon peyton jones", "Taylor Swift"]
 
 nameLengths = map length celebrities
 -- [13,13,7,13,18,12]
 
 reversedNames = map reverse celebrities
--- ["neirb'o nanoc","kainzow evets","écnoyeB","hafitaL neeuQ","senoj notyep nomis","tfiwS rolyaT"]
+-- ["neirb'o nanoc","kainzow evets","écnoyeb","hafital neeuq","senoj notyep nomis","tfiws rolyat"]
 
 isSimon = filter (== "simon peyton jones") celebrities
 -- ["simon peyton jones"]
@@ -25,8 +25,9 @@ startsWithS = filter (\celeb -> head celeb == 's' ) celebrities
 {-
     Whoa, new stuff! There's a lambda function in there:
         (\celeb -> head celeb == 's' )
-    Here we bind the first (and only) argument to the name celeb, then
-    in the function body we take the head of celeb and checks if the character is an 's'
+    Here we bind the first (and only) argument to the name celeb, then in the
+    function body we take the first element (the “head”) of celeb and checks if
+    the character is an 's'
 
     Let's look at another lambda function:
 -}
@@ -52,7 +53,7 @@ add1 list = map (+ 1) list
     Exercise:
     Define the numsAsStrings function so it converts the integers in a list to strings.
 
-    tip: the `show` function converts ints to strings
+    tip: the `show` function can convert ints to strings
 -}
 numsAsStrings :: [Int] -> [String]
 numsAsStrings list = map show list

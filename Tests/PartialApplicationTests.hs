@@ -12,9 +12,9 @@ tests = do
         it "increments all elements by two" $
             QC.property $ \(xs :: [Int]) -> map (+2) xs == PA.addTwo xs
 
-    describe "PartialApplication.hasZero" $
+    describe "PartialApplication.containsZero" $
         it "checks that a zero is detected" $
-            QC.property $ \(xs :: [Int]) -> (0 `elem` xs) == PA.hasZero xs
+            QC.property $ \(xs :: [Int]) -> (0 `elem` xs) == PA.containsZero xs
 
     describe "PartialApplication.isDigit" $
         it "checks that isDigit correctly classifies chars" $

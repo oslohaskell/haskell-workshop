@@ -72,7 +72,7 @@ allPositiveEvensInTheWorld = map (* 2) [1..]      -- This alone doesn't compute 
 get5Evens = take 5 allPositiveEvensInTheWorld     -- .. until it is asked for
 
 -- Printing
-printme = putStrLn "I will be printed on the terminal with a '\\n' at the end, but not until you evaluate me"
+printme = putStrLn "I will be printed on the terminal with a '\n' at the end, but not until you evaluate me"
 
 -- Using '$' to avoid parentheses-nightmares
 -- The following expressions are equivalent

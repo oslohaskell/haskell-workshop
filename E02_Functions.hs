@@ -61,15 +61,15 @@ plus arg1 arg2 = arg1 + arg2
 {-
     Exercise:
     Define a function, sum3, that takes 3 arguments and returns their sum.
-    ... and you must use the plus function to do so!
+    ... and you must use the `plus` function to do so!
 -}
 sum3 :: Integer -> Integer -> Integer -> Integer
 sum3 arg1 arg2 arg3 = plus arg1 (plus arg2 arg3)
 
 {-
     Exercise:
-    Define isDollar that takes a Char and returns
-    True only if that character is a dollar sign ($).
+    Define the function `isDollar` that takes a Char and returns True only if
+    that character is a dollar sign ($).
 -}
 isDollar :: Char -> Bool
 isDollar character = character == '$'

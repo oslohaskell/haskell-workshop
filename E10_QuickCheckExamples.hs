@@ -4,8 +4,8 @@ import WorkshopPrelude
 
 {-
     QuickCheck can be used for property-based testing.
-    A common example is that a list of something twice reversed should equal the original list.
-    This could be written as:
+    A property could for example be that a list that is reversed twice should
+    be equal to the original list. This could be written as:
 -}
 reverseProperty :: String -> Bool
 reverseProperty xs = xs == reverse (reverse xs)
