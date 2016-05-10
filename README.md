@@ -18,6 +18,8 @@ Forslag til rekkefølge:
 * QuickCheckExamples
 * Vigenere
 
-En enkel måte å kjøre testene på er `$ runhaskell Tests/<testnavn>.hs`, f.eks `runhaskell Tests/GettingStartedTests.hs`.
+`stack test` kjører alle testene.
+
+En enkel måte å kjøre enkelttester på er `$ stack exec runghc Tests/<testnavn>.hs`, f.eks `stack exec runghc Tests/GettingStartedTests.hs`.
 
 Se `CheatSheet.hs` for eksempler på Haskell-syntaks og bruk av vanlige funksjoner.
