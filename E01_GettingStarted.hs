@@ -14,8 +14,6 @@ import WorkshopPrelude
 
 {-
     The 'main' function is the entry point of the program
-    Try running this by setting this module as the current target
-    and hitting Ctrl+Enter
 -}
 main = putStrLn "Hello World"
 
@@ -35,6 +33,5 @@ main = putStrLn "Hello World"
 myName = "N/A"
 
 {-
-  ... then change the target to `Tests` and hit Run again.
-  You passed a test, right? Congrats.
+  ... then run the tests again.  You passed a test, right? Congrats.
 -}
