@@ -40,7 +40,7 @@ numberToString = _YOUR_CODE_HERE
 
 {-
    Step 2:
-   Split string on single digits, and represent them as Ints.
+   Split the string on single digits, and convert them to Ints.
    Hint: There is a function called `digitToInt` that converts a single Char to
          an Int. Now, keeping in mind that String = [Char], it looks like we
          would want to apply `digitToInt` to every element of the string...
@@ -54,7 +54,7 @@ stringToDigitList = _YOUR_CODE_HERE
    To reverse a list, you can use the `reverse` function.
 
    There are many ways to do this, but the (partial) solution here uses
-   `zipWith`, which takes a function, two lists and combines the elements using
+   `zipWith`, which takes a function, two lists, and combines the elements using
    the given function. For example:
 
        zipWith (+) [1,2,3] [3,2,1]
@@ -91,7 +91,7 @@ sumDigitList xs = let xs1 = map _YOUR_CODE_HERE xs   -- step 1
 
 {-
    Step 5:
-   Calculate the modulus of a number over 10. The modulo function in Haskell is
+   Calculate the modulu of a number over 10. The modulo function in Haskell is
    `mod`. Remember that you can partially apply a function.
 -}
 mod10 :: Int -> Int
@@ -102,7 +102,7 @@ mod10 = _YOUR_CODE_HERE
    Tie it all together in one single function for determining if a credit card
    number is valid. Remember that you compose functions using (.):
 
-   f . g = \x -> f (g x)
+   (f . g) x = f (g x)
 
   Remember the recipe:
 

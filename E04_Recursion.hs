@@ -19,7 +19,7 @@ downToZero x =
     flawed. For negative numbers it will never terminate!
     This illustrates an important point about recursive functions: it's your
     resposibility to make sure they terminate. The compiler can't help you with
-    that. Remember the halting problem? :)
+    that in this case...
 
     Lists and recursion is a marriage made in heaven:
 -}
