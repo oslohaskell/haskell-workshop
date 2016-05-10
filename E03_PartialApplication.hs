@@ -25,14 +25,14 @@ addTwo xs = map (_YOUR_CODE_HERE) xs
     returns True if the given value is in the list:
     elem 3 [1,2,3]   = True
     elem 4 [1,2,3]   = False
-    'a' `elem` "abc" = True   note: ("abc" = ['a','b','c'])
+    'a' `elem` "abc" = True   (note: "abc" is equal to the list ['a','b','c'])
 
     Use partial application of `elem` to create a function that takes a list
     of integers and returns True if it contains the number 0.
 -}
 
-hasZero :: [Int] -> Bool
-hasZero = _YOUR_CODE_HERE
+containsZero :: [Int] -> Bool
+containsZero = _YOUR_CODE_HERE
 
 {-
     Now, let's turn the parameters around. Can you create a function that
