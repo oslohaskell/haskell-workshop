@@ -1,6 +1,6 @@
 module E10_QuickCheckExamples where
 
-import Common
+import WorkshopPrelude
 
 {-
     QuickCheck can be used for property-based testing.

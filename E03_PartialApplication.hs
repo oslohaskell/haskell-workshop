@@ -1,6 +1,6 @@
 module E03_PartialApplication where
 
-import Common
+import WorkshopPrelude
 
 {-
     The following function `add` can be thought of as taking only one parameter

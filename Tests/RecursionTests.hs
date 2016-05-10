@@ -1,5 +1,6 @@
 module Tests.RecursionTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck as QC
 import qualified E04_Recursion    as RE
 import Test.Hspec
@@ -35,4 +36,3 @@ tests = do
             QC.property $ \x -> RE.listLength x == length x
 
 main = hspec tests
-

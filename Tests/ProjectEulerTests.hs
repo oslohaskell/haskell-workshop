@@ -1,5 +1,6 @@
 module Tests.ProjectEulerTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck as QC
 import qualified E09_ProjectEuler as PE
 import Test.Hspec
@@ -23,4 +24,3 @@ tests = do
             PE.problem16 `shouldBe` (2 * 683)
 
 main = hspec tests
-

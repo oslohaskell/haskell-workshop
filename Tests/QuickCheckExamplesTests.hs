@@ -1,5 +1,6 @@
 module Tests.QuickCheckExamplesTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck       as QC
 import qualified E10_QuickCheckExamples as QCE
 import Test.Hspec
@@ -19,4 +20,3 @@ tests = do
             QC.property $ \xs -> xs == (QCE.decode . QCE.encode) xs
 
 main = hspec tests
-

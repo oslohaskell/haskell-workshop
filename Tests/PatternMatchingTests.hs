@@ -1,5 +1,6 @@
 module Tests.PatternMatchingTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck    as QC
 import qualified E07_PatternMatching as PM
 import Test.Hspec
@@ -26,4 +27,3 @@ tests = do
 
 
 main = hspec tests
-

@@ -94,4 +94,3 @@ s = ["Element #" ++ (show x) | x <- [1..20], x `mod` 3 == 0] -- ["Element #3","
 -- dropWhile and takeWhile
 skipBlanks = dropWhile (== ' ') "    i am indented" -- "i am indented"
 justNumbersPlease = takeWhile isNumber "12321421afagad" -- "12321421"
-

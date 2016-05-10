@@ -1,6 +1,6 @@
 module E05_RecursionSchemes where
 
-import Common
+import WorkshopPrelude
 
 {-
     This is what we all came here for. Finally we'll start using higher order functions!

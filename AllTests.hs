@@ -4,6 +4,7 @@ module Main where
     You're not supposed to touch this ;)
 -}
 
+import WorkshopPrelude
 import Test.QuickCheck
 import Test.Hspec
 

@@ -1,5 +1,6 @@
 module Tests.RecursionSchemesTests where
 
+import WorkshopPrelude
 import qualified Test.QuickCheck     as QC
 import qualified E05_RecursionSchemes as RS
 import Test.Hspec
@@ -24,4 +25,3 @@ tests = do
             QC.property $ \xs -> RS.filterNot (< 2) xs == filter (not . (< 2)) xs
 
 main = hspec tests
-

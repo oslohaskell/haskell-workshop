@@ -1,6 +1,6 @@
 module E11_Vigenere where
 
-import Common
+import WorkshopPrelude
 
 {-
     A very simple encryption method (a bit more hard to break than Caesar ciphers) is the Vigenére cipher.
