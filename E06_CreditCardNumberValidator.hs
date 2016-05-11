@@ -67,7 +67,7 @@ stringToDigitList = _YOUR_CODE_HERE
 doubleEveryOtherElement :: [Int] -> [Int]
 doubleEveryOtherElement xs = let xs'     = reverse xs
                                  pattern = 1:2:pattern
-                              in reverse $ zipWith _YOUR_CODE_HERE xs' pattern
+                              in reverse (zipWith _YOUR_CODE_HERE xs' pattern)
 
 {-
    Step 4:
