@@ -48,7 +48,7 @@ returnLastElement xs  = _YOUR_CODE_HERE
     Exercise:
     Define the secondToLast function so it returns the second to last element
     in the input list.  Return `Nothing` if the list is too short. Feel free to
-    add more function clauses as you see fit.
+    add/remove function clauses as you see fit.
 -}
 secondToLast :: [a] -> Maybe a
 secondToLast _ = _YOUR_CODE_HERE
