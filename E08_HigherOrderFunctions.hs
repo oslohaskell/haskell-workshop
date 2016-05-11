@@ -3,7 +3,7 @@ module E08_HigherOrderFunctions where
 import WorkshopPrelude
 
 {-
-    Here is a simple implementatio of sets of integers, as functions.  The idea
+    Here is a simple implementation of sets of integers, as functions.  The idea
     is that a set is a boolean function for all integers, and returns true if a
     given integer is part of the set and false otherwise.
 -}
