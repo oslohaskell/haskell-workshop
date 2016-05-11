@@ -12,7 +12,7 @@ tests = do
             FU.multiply10by20 `shouldBe` 200
 
     describe "Functions.plus" $ do
-        it "adds to *arbitrary* numbers" $ do
+        it "adds two *arbitrary* numbers" $ do
             QC.property $ \x y -> FU.plus x y == x + y
 
     describe "Functions.sum3" $ do
